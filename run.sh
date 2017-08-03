@@ -7,7 +7,7 @@ apk update &&
     git -C ${WORK_DIR} init &&
     git -C ${WORK_DIR} remote add origin https://git.zx2c4.com/password-store &&
     git -C ${WORK_DIR} fetch origin &&
-    git -C ${WORK_DIR} checkout tags/1.6.5 &&
+    git -C ${WORK_DIR} checkout tags/1.7.1 &&
     make --directory ${WORK_DIR} install &&
     rm -rf ${WORK_DIR} &&
     apk del make
